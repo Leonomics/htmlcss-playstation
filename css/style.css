@@ -43,3 +43,33 @@
     padding-right: 0.8rem;
     padding-left: 0.8rem;
 }
+
+/*HERO*/
+.ms_hero    {
+    background-image: url("../img/jumbo-bg.png");
+    background-image: cover;
+    height: 586px;
+    color: white;
+}
+
+.ms_buy_now_button  {
+    background-color: red;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 16px;
+    
+}
+
+.ms_hero_elements   {
+    max-width: 349px;
+}
+
+.ms_hero_logo   {
+    width: 196px;
+}
+
+.ms_hero_elements   {
+    position: absolute;
+    left: 2.63rem;
+    bottom: 3rem;
+}
