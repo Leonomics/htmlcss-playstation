@@ -88,3 +88,11 @@
 .ms_ps5_carousel img:hover  {
     border-bottom: 2px solid blue;
 }
+
+/*IT TAKES TWO*/
+.ms_it_takes_two    {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-image: cover;
+    height: 620px;
+    color: white;
+}
