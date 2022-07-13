@@ -1,0 +1,12 @@
+:root   {
+    --button_blue: #2d64e6;
+    --nuove_uscite_bg:#1f1f1f;
+    --ps_plus_bg: #bebcbb;
+    --ps_now_bg: #151c3b;
+    --footer_bg: #00439c;
+}
+
+.ms_logo_bar    {
+    background-color: black;
+    
+}
