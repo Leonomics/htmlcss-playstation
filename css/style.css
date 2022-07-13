@@ -73,3 +73,18 @@
     left: 2.63rem;
     bottom: 3rem;
 }
+
+.ms_carousel img {
+    width:159px;
+    height: 89px;
+    margin-top: 2.2rem;
+}
+
+/*PS5*/
+.ms_ps5_carousel img  {
+    width: 196px;
+}
+
+.ms_ps5_carousel img:hover  {
+    border-bottom: 2px solid blue;
+}
