@@ -9,10 +9,105 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Playstation</title>
 </head>
+
+<!--NAVIGATION-->
     <header>
-        <div class="ms_logo_bar">
-            <figure></figure>
+        <div class="ms_logo_bar d-flex justify-content-end align-items-center">
+            <figure class="ms_sony_logo">
+                <img src="img/sony_logo.svg" style="width: 90px;">
+            </figure>
         </div>
+        <nav class="ms_nav navbar d-flex justify-content-between align-items-center navbar-expand-md navbar-light">
+            <figure class="align-self-center">
+                <img src="img/play_logo.svg" >
+            </figure>
+            
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="ms_menu_items collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav  text-center">
+                    <li>
+                        <a class="nav-link ms_menu_item" href="#">
+                            <p>
+                                Giochi
+                            </p>
+                            <i class="fa-solid fa-caret-down"></i>
+                         </a>
+                    </li>
+                    <li>
+                        <a class="nav-link ms_menu_item" href="#">
+                            <p>
+                                Hardware
+                            </p>
+                            <i class="fa-solid fa-caret-down"></i>
+                         </a>
+                    </li>
+                    <li>
+                        <a class="nav-link ms_menu_item" href="#">
+                            <p>
+                                Servizi
+                            </p>
+                            <i class="fa-solid fa-caret-down"></i>
+                         </a>
+                    </li>
+                    <li>
+                        <a class="nav-link ms_menu_item" href="#">
+                            <p>
+                                Novità
+                            </p>
+                            <i class="fa-solid fa-caret-down"></i>
+                         </a>
+                    </li>
+                    <li>
+                        <a class="nav-link ms_menu_item" href="#">
+                            <p>
+                                Fai Acquisti
+                            </p>
+                            <i class="fa-solid fa-caret-down"></i>
+                         </a>
+                    </li>
+                    <li>
+                        <a class="nav-link ms_menu_item" href="#">
+                            <p>
+                                Supporto
+                            </p>
+                            <i class="fa-solid fa-caret-down"></i>
+                         </a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav  text-center">
+                    <li>
+                        <a class="nav-link ms_menu_item" href="#">
+                            <p>
+                                My PlayStation
+                            </p>
+                            <i class="fa-solid fa-caret-down"></i>
+                         </a>
+                    </li>
+                    <li>
+                        <a class="nav-link ms_menu_item" href="#">
+                        <button class="ms_accedi_button">
+                            Accedi
+                        </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link ms_menu_item" href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>    
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 <body>
     

@@ -6,7 +6,40 @@
     --footer_bg: #00439c;
 }
 
+
+/*NAVIGATION*/
 .ms_logo_bar    {
     background-color: black;
     
+}
+
+.ms_sony_logo   {
+    margin-right: 0.5rem !important;
+}
+
+.ms_nav   {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.ms_menu_item   {
+    display: flex;
+    align-self: center;
+    margin-right: 1.5rem;
+    font-size: 1.43rem;
+}
+
+.ms_menu_items  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ms_accedi_button   {
+    border-radius: 16px;
+    background-color: var(--nuove_uscite_bg);
+    color: white;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
 }
