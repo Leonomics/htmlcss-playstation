@@ -6,6 +6,16 @@
     --footer_bg: #00439c;
 }
 
+*   {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+img {
+    max-width: 100%;
+}
+
 
 /*NAVIGATION*/
 .ms_logo_bar    {
@@ -26,7 +36,7 @@
     display: flex;
     align-self: center;
     margin-right: 1.5rem;
-    font-size: 1.43rem;
+    /*font-size: 1.43rem;*/
 }
 
 .ms_menu_items  {
