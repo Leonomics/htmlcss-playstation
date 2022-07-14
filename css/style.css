@@ -4,6 +4,7 @@
     --ps_plus_bg: #bebcbb;
     --ps_now_bg: #151c3b;
     --footer_bg: #00439c;
+    --ps_plus_button: #d9dadc;
 }
 
 *   {
@@ -176,5 +177,60 @@ img {
 
 /*PS PLUS SECTION*/
 .ms_ps_plus {
-    
+    background-color: var(--ps_plus_bg) ;
+}
+
+.ms_ps_plus_logo    {
+    width: 318px;
+}
+
+.ms_ps_plus_description     {
+    width:535px;
+}
+
+.ms_ps_plus_text {
+    align-self: center;
+}
+
+.ms_ps_plus_featured_games  {
+
+}
+
+.ms_esplora_ps_plus_button  {
+    background-color: var(--ps_plus_button);
+    border-radius: 25px;
+    color: var(--button_blue);
+    border:none;
+    padding: 0.5rem;
+}
+
+/*SCONTI SECTION*/
+.ms_ps_store_img    {
+    width: 357;
+}
+
+/*PLAYSTATION NOW SECTION*/
+.ms_ps_now_button   {
+    background-color: var(--ps_plus_button);
+    border-radius: 25px;
+    color: black;
+    border:none;
+    padding: 0.5rem;
+}
+
+.ms_ps_now  {
+    background-color: var(--ps_now_bg);
+}
+
+.ms_ps_now_logo {
+    width: 310px;
+}
+
+.ms_ps_now_description  {
+    color:white;
+    width: 537px;
+}
+
+.ms_ps_now_text {
+    align-self: center;
 }
