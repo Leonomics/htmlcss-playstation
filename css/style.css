@@ -76,6 +76,13 @@
     width:159px;
     height: 89px;
     margin-top: 2.2rem;
+    border-radius: 25px;
+    
+    border:2px solid transparent;
+}
+
+.ms_carousel img:hover    {
+    border:2px solid blue;
 }
 
 /*PS5*/
@@ -113,7 +120,24 @@
     height: 164px;
 }
 
+.ms_nuove_uscite_text   {
+    width: 164px;
+}
+
 .ms_nuove_uscite  {
     background-color: var(--nuove_uscite_bg);
     color:white;
+}
+
+.ms_ps4_img   {
+    width: 216px;
+}
+
+/*ESPLORA PS4*/
+
+.ms_esplora_ps4_text,
+.ms_ps5_text    {     /*PS5 Section*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
