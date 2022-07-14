@@ -234,3 +234,26 @@ img {
 .ms_ps_now_text {
     align-self: center;
 }
+
+/*SOCIAL SECTION*/
+.ms_social_icon {
+    width: 124px;
+}
+
+.ms_social_media_title  {
+    text-align: center;
+}
+
+/*FOOTER*/
+.ms_footer  {
+    background-color: var(--footer_bg);
+    color: white;
+}
+
+.ms_link_container  {
+    display: flex;
+}
+
+.ms_link_column {
+    margin-left: 105px;
+}
