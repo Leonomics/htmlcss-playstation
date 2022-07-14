@@ -81,10 +81,14 @@
 /*PS5*/
 .ms_ps5_carousel img  {
     width: 196px;
+    border-bottom: 2px solid transparent;
+    opacity: 50%;
+    transition: opacity 2s;
 }
 
 .ms_ps5_carousel img:hover  {
     border-bottom: 2px solid blue;
+    opacity: 100%;
 }
 
 /*IT TAKES TWO*/
@@ -100,4 +104,16 @@
     position: absolute;
     left: 2.63rem;
     bottom: 3rem;
+}
+
+
+/*NUOVE USCITE*/
+.ms_nuove_uscite img    {
+    width: 164px;
+    height: 164px;
+}
+
+.ms_nuove_uscite  {
+    background-color: var(--nuove_uscite_bg);
+    color:white;
 }
