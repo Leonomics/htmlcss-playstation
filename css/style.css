@@ -60,9 +60,6 @@
     
 }
 
-.ms_hero_elements   {
-    max-width: 349px;
-}
 
 .ms_hero_logo   {
     width: 196px;
@@ -72,6 +69,7 @@
     position: absolute;
     left: 2.63rem;
     bottom: 3rem;
+    max-width: 349px;
 }
 
 .ms_carousel img {
@@ -95,4 +93,11 @@
     background-image: cover;
     height: 620px;
     color: white;
+}
+
+.ms_it_takes_two_text   {
+    max-width: 349px;
+    position: absolute;
+    left: 2.63rem;
+    bottom: 3rem;
 }
