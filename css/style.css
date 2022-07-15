@@ -368,6 +368,10 @@ img {
         display: flex;
         flex-direction: row;
     }
+
+    .ms_ps5_carousel p   {
+        display: flex;
+    }
     
     .ms_link_column:first-of-type     {
         margin-left: 0%;
