@@ -355,7 +355,10 @@ img {
 
 .ms_link_container  {
     align-self: flex-start;
+}
 
+.ms_link_column     {
+    margin-left: 0%;
 }
 
 
@@ -364,6 +367,16 @@ img {
     .ms_link_container  {
         display: flex;
         flex-direction: row;
+    }
+    
+    .ms_link_column:first-of-type     {
+        margin-left: 0%;
+    }
+    .ms_link_column:nth-child(2)   {
+        margin-left: 106px;
+    }
+    .ms_link_column:nth-child(3)   {
+        margin-left: 106px;
     }
  }
 
@@ -391,7 +404,7 @@ img {
         display: flex;
         flex-direction: row;
         position: absolute;
-        right:10px;
+        right:92px;
     }
     .ms_sie_and_rights_bottom   {
         display: flex;
