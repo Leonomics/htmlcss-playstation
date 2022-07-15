@@ -17,6 +17,11 @@ img {
     max-width: 100%;
 }
 
+.ms_custom_container    {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
 
 /*NAVIGATION*/
 .ms_logo_bar    {
@@ -256,4 +261,17 @@ img {
 
 .ms_link_column {
     margin-left: 105px;
+}
+
+.ms_sie_logo    {
+    width: 129px;
+}
+
+.ms_rights_description  {
+    width: 553px;
+}
+
+.ms_footer_container    {
+    display: flex;
+    justify-content: space-between;
 }
