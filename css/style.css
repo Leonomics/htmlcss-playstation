@@ -104,15 +104,20 @@ img {
 }
 
 /*PS5*/
+
+.ms_ps5_container   {
+    margin-bottom: 2.25rem;
+    margin-top: 6.56rem;
+}
+
 .ms_ps5_carousel img  {
-    width: 196px;
+    
     border-bottom: 2px solid transparent;
     opacity: 50%;
     transition: opacity 2s;
 }
 
 .ms_ps5_carousel img:hover  {
-    border-bottom: 2px solid blue;
     opacity: 100%;
 }
 
@@ -131,6 +136,18 @@ img {
 .ms_ps5_tagline {
     color: var(--button_blue);
     font-size: 0.75rem;
+}
+
+.ms_ps5_card    {
+    width: 196px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid transparent;
+}
+
+.ms_ps5_card:hover  {
+    border-bottom: 2px solid blue;
+    opacity: 100%;
 }
 
 /*IT TAKES TWO*/
