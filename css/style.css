@@ -24,6 +24,11 @@ img {
 
 
 /*NAVIGATION*/
+
+.ms_nav_wrapper {
+    display: none;
+}
+
 .ms_logo_bar    {
     background-color: black;
     
@@ -301,7 +306,7 @@ img {
 }
 
 .ms_social_icon {
-    width: 124px;
+    max-width: 124px;
 }
 
 .ms_social_media_title  {
@@ -341,21 +346,22 @@ img {
 
 
 
-@media (min-width: 231px) { 
+@media (min-width: 576px) { 
 
  }
 
 
-@media (min-width: 449px) { 
+@media (min-width: 768px) { 
     .ms_ps5_card p  {
         display:contents;
     }
  }
 
 
-@media (min-width: 1209px) { 
-    .ms_menu_items  {
-        display: contents;
+@media (min-width: 1200px) { 
+    .ms_nav_wrapper  {
+        display: flex;
+        justify-content: space-between;
     }
  }
 
