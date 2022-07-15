@@ -48,6 +48,7 @@ img {
 .ms_menu_items  {
     display: flex;
     justify-content: space-between;
+    display:none;
 }
 
 .ms_accedi_button   {
@@ -252,6 +253,10 @@ img {
     padding: 0.5rem;
 }
 
+.ms_ps5_card p  {
+    display: none;
+}
+
 /*SCONTI SECTION*/
 .ms_ps_store_img    {
     width: 357;
@@ -332,3 +337,25 @@ img {
     padding-top: 5.125rem;
     padding-bottom: 5.125rem;
 }
+
+
+
+
+@media (min-width: 231px) { 
+
+ }
+
+
+@media (min-width: 449px) { 
+    .ms_ps5_card p  {
+        display:contents;
+    }
+ }
+
+
+@media (min-width: 1209px) { 
+    .ms_menu_items  {
+        display: contents;
+    }
+ }
+
