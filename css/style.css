@@ -228,6 +228,10 @@ img {
     padding-top: 4.75rem;
 }
 
+.ms_info_button {
+    align-self: flex-start;
+}
+
 
 /*PS PLUS SECTION*/
 .ms_ps_plus {
@@ -247,7 +251,7 @@ img {
 }
 
 .ms_ps_plus_featured_games  {
-
+    display: none;
 }
 
 .ms_esplora_ps_plus_button  {
@@ -322,6 +326,7 @@ img {
 
 .ms_link_container  {
     display: flex;
+    flex-direction: column;
 }
 
 .ms_link_column {
@@ -338,23 +343,35 @@ img {
 
 .ms_footer_container    {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding-top: 5.125rem;
     padding-bottom: 5.125rem;
 }
 
+.ms_sie_and_rights   {
+    display: none;
+}
+
+.ms_link_container  {
+    align-self: flex-start;
+
+}
 
 
 
 @media (min-width: 576px) { 
-
+    .ms_link_container  {
+        display: flex;
+        flex-direction: row;
+    }
  }
 
 
 @media (min-width: 768px) { 
-    .ms_ps5_card p  {
+    /*.ms_ps5_card p  {
         display:contents;
-    }
+    }*/
  }
 
 
@@ -362,6 +379,24 @@ img {
     .ms_nav_wrapper  {
         display: flex;
         justify-content: space-between;
+    }
+    .ms_ps_plus_featured_games  {
+        display: flex;
+    }
+    .ms_link_container  {
+        display: flex;
+        flex-direction: column;
+    }
+    .ms_link_container  {
+        display: flex;
+        flex-direction: row;
+    }
+    .ms_sie_and_rights_bottom   {
+        display: none;
+    }
+    .ms_footer_container    {
+        display: flex;
+        flex-direction: row;
     }
  }
 
