@@ -88,12 +88,14 @@ img {
     max-width: 349px;
 }
 
+/*hero carousel*/
+
 .ms_carousel img {
-    width:159px;
+    width:165px;
     height: 89px;
     margin-top: 2.2rem;
     border-radius: 25px;
-    
+    padding: 4px;
     border:2px solid transparent;
 }
 
@@ -148,6 +150,11 @@ img {
 
 
 /*NUOVE USCITE*/
+.ms_nuove_uscite_section    {
+    padding-bottom: 5.125rem;
+    padding-top: 2.0625rem;
+}
+
 .ms_nuove_uscite img    {
     width: 164px;
     height: 164px;
@@ -177,6 +184,11 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.ms_esplora_ps4_container   {
+    padding-bottom: 2.875rem;
+    padding-top: 4.75rem;
 }
 
 
@@ -214,6 +226,11 @@ img {
     width: 357;
 }
 
+.ms_sconti_container       {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 /*PLAYSTATION NOW SECTION*/
 .ms_ps_now_button   {
     background-color: var(--ps_plus_button);
@@ -241,12 +258,19 @@ img {
 }
 
 /*SOCIAL SECTION*/
+
+.ms_social_media_container  {
+    padding-top: 5.125rem;
+    padding-bottom: 6.18rem;
+}
+
 .ms_social_icon {
     width: 124px;
 }
 
 .ms_social_media_title  {
     text-align: center;
+    margin-bottom: 4.32rem;
 }
 
 /*FOOTER*/
@@ -274,4 +298,6 @@ img {
 .ms_footer_container    {
     display: flex;
     justify-content: space-between;
+    padding-top: 5.125rem;
+    padding-bottom: 5.125rem;
 }
