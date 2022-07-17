@@ -70,7 +70,9 @@ img {
 .ms_hero    {
     background-image: url("../img/jumbo-bg.png");
     background-image: cover;
-    height: 586px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 660px;
     color: white;
 }
 
@@ -174,7 +176,9 @@ img {
 .ms_it_takes_two    {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-image: cover;
-    height: 620px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
     color: white;
 }
 
