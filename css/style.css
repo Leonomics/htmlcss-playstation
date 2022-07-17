@@ -416,11 +416,13 @@ img {
     }
     .ms_sie_and_rights_bottom   {
         display: flex;
+        flex-direction: column;
         
     }
     .ms_footer_container    {
         display: flex;
-        
+          
     }
+
  }
 
